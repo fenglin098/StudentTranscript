@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 
 public class Student {
@@ -38,4 +40,12 @@ public class Student {
     public void setClasses(ArrayList<Course> classes) {
         this.classes = classes;
     }
+
+//    public void getDisplayText(){
+//        System.out.println("Student Name: "+studentName);
+//        for (Course i: )
+//        System.out.println("Courses: ");
+//    }
+
+
 }
